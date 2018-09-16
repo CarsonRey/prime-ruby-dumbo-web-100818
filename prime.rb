@@ -11,5 +11,5 @@ end
 end
 
 #check that 'n' is a positive fixnum / that it isn't equal to zero (or one)
-#check that the remainder 
-# make sure all numbers follow some condition
+#check that the remainder of all numbers divided by the integer are NOT equal to zero (meaning not "cleanly" divisible by any number in that range)
+# You can use .all? {} to check whether a condition is true or not 
