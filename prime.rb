@@ -3,7 +3,7 @@ def prime?(n)
   range = range.to_a
 if n < 0
   false
-elsif range.all? {|num| n % num == 0} 
+elsif range.all? {|num| n % num != 0} 
   true
 else
   false
